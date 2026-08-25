@@ -41,6 +41,4 @@ To replicate or deploy this project, configure the following **GitHub Actions Se
 - **S3 Website Endpoint:** `http://<bucket-name>.s3-website-us-east-1.amazonaws.com`
 - **Load Balancer Endpoint:** `http://<alb-name>-<id>.us-east-1.elb.amazonaws.com`
 
----
 
-## 📂 Repository Structure
