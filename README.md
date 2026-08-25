@@ -1,15 +1,13 @@
 # AWS Static Website Deployment (CI/CD Enabled)
 
-This repository contains the static website files and GitHub Actions workflow for automatic deployment to S3.
+Automated static website hosting infrastructure on AWS, integrated with a continuous deployment pipeline powered by GitHub Actions.
 
-## Website URLs
-S3 Endpoint: http://aws-project-html-1.s3-website-us-east-1.amazonaws.com
+---
 
-Load Balancer URL:  http:// lb-project1-852429630.us-east-1.elb.amazonaws.com 
+## 📌 Architecture Overview
 
-## AWS Account ID
-475241616261
+This project demonstrates an automated workflow for deploying static web assets to an Amazon S3 bucket configured for website hosting, fronted by an Application Load Balancer (ALB) for traffic management.
 
-## CI/CD Pipeline
-- Push to `main` branch triggers automatic deployment.
-- GitHub Actions uploads all static files to the S3 bucket.
+- **Storage & Hosting:** Amazon S3 (Static Website Hosting enabled)
+- **Traffic Routing:** Application Load Balancer (ALB)
+- **CI/CD Automation:** GitHub Actions
